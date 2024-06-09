@@ -38,6 +38,10 @@ function App() {
       setError('Email ends with @ez.works is not allowed.');
       return;
     }
+    else{
+      setSuccess('Form Submitted');
+      return;
+    }
     
     const data = { email };
 
